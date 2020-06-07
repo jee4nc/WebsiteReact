@@ -1,16 +1,43 @@
+@import "./colors.scss";
+
 .AboutUs {
     display: grid;
-    grid-template-columns: 1.8fr 1fr;
-    border: 5px green solid;
+    // border: 5px green solid;
+    background-color: $back_color;
+    grid-template-columns: 1fr;
 
-    &__phrases {
+    &__title {
         display: grid;
+        padding-top: 2em;
         justify-content: center;
-        margin: 20px;
-        color: black;
+    }
+
+    &__text {
+        display: grid;
+        font-size: 1.3em;
+        margin-left: 8em;
+        margin-right: 8em;
+        justify-content: center;
+    }
+
+    &__tecnologias {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        justify-content: center;
+        padding-top: 2em;
+        padding-bottom: 3em;
+
+        &__containerImg {
+            display: grid;
+            justify-items: center;
+        }
     }
 }
 
-#About_Us__image__png {
-    max-width: 100%;
+.AboutUs__tecnologias img {
+    max-width: 60%;
+
+    &:hover {
+        max-width: 90%;
+    }
 }

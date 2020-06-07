@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 .hero {
     height: 100vh;
     background-image: url("../utils/background.jpg");
@@ -10,7 +12,7 @@
     align-content: center;
 
     &__title {
-        background-color: rgba(0, 0, 0, 0.808);
+        background-color: $back-main-title;
         color: white;
         font-size: 70px;
     }
