@@ -1,0 +1,16 @@
+.AboutUs {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    border: 5px green solid;
+
+    &__phrases {
+        display: grid;
+        justify-content: center;
+        margin: 20px;
+        color: black;
+    }
+}
+
+#About_Us__image__png {
+    max-width: 100%;
+}
