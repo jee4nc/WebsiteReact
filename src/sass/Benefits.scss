@@ -1,0 +1,30 @@
+@import "./colors";
+.Title_section {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 5px solid green;
+  justify-items: center;
+  background: $back_color;
+}
+
+.BContainer {
+  display: grid;
+  grid-template-columns: 1.6fr 1.2fr;
+  border: 5px solid purple;
+  background: $back_color;
+  &__Text {
+    font-size: 1.3em;
+    border: 5px solid yellowgreen;
+  }
+  &__IMG {
+    display: grid;
+    justify-items: center;
+    border: 5px solid orange;
+    &__IMG {
+      filter: grayscale(30%);
+      max-width: 50%;
+      margin: 2em;
+    }
+  }
+}
