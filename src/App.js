@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import AboutUs from "./components/molecules/AboutUs";
+import AboutUs from "./components/organism/AboutUs";
 import MainSection from "./components/molecules/MainSection";
 import Another from "./components/molecules/Another";
 import Zoom from "react-reveal/Zoom";
@@ -10,10 +10,8 @@ function App() {
   return (
     <>
       <MainSection />
-      <Zoom>
-        <AboutUs />
-        <Another />
-      </Zoom>
+      <AboutUs />
+      <Another />
     </>
   );
 }

@@ -1,0 +1,34 @@
+[
+  {
+    "src": "../../utils/angular.svg",
+    "alt": "angular"
+  },
+  {
+    "src": "../../utils/django.svg",
+    "alt": "django"
+  },
+  {
+    "src": "../../utils/js.svg",
+    "alt": "js"
+  },
+  {
+    "src": "../../utils/mysql.svg",
+    "alt": "mysql"
+  },
+  {
+    "src": "../../utils/nodejs.svg",
+    "alt": "nodejs"
+  },
+  {
+    "src": "../../utils/react.svg",
+    "alt": "react"
+  },
+  {
+    "src": "../../utils/linux.svg",
+    "alt": "linux"
+  },
+  {
+    "src": "../../utils/sass.svg",
+    "alt": "sass"
+  }
+]

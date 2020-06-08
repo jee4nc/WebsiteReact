@@ -1,5 +1,12 @@
 import React from "react";
+import Cards from "../atoms/Cards";
 
 export default function Another() {
-  return <h1>ANOTHER SECTIOOON</h1>;
+  return (
+    <div>
+      <Cards />
+      <Cards />
+      <Cards />
+    </div>
+  );
 }
