@@ -1,13 +1,9 @@
 import React from "react";
 import Proptypes from "prop-types";
 
-const CardsTech = ({ src, alt }) => (
+const CardsTech = (props) => (
   <div className="card">
-    <img
-      className="cardImage"
-      src={require("../../utils/angular.svg")}
-      alt={alt}
-    />
+    <img className="cardImage" src={require(props.src)} alt={props.alt} />
   </div>
 );
 
