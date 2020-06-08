@@ -9,13 +9,16 @@ class ContainerCardTech extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="Container__CardTech">
         {this.state.lista.map((e) => (
           <Zoom>
-            <CardTech src={e.src} alit={e.alt} />
+            <CardTech
+              className="Container__CardTech__img"
+              src={e.src}
+              alit={e.alt}
+            />
           </Zoom>
         ))}
-        <div>{this.state.lista.map((e) => console.log(e.src, e.alt))}</div>
       </div>
     );
   }

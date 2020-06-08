@@ -1,9 +1,10 @@
 import React from "react";
 import Proptypes from "prop-types";
+import "../../sass/AboutUs.scss";
 
 const CardsTech = (props) => (
   <div className="card">
-    <img className="cardImage" src={require(props.src)} alt={props.alt} />
+    <img className="cardImage" src={props.src} alt={props.alt} />
   </div>
 );
 

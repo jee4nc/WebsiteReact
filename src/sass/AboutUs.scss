@@ -20,18 +20,29 @@
         justify-content: center;
     }
 
-    &__tecnologias {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        justify-content: center;
-        padding-top: 2em;
-        padding-bottom: 3em;
 
-        &__containerImg {
-            display: grid;
-            justify-items: center;
+}
+
+.Container__CardTech {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding-top: 2em;
+    padding-bottom: 3em;
+
+    &__image {
+        display: grid;
+        justify-self: center;
+        max-width: 60%;
+
+        &:hover {
+            max-width: 90%;
         }
     }
+}
+
+.card {
+    display: grid;
+    justify-items: center;
 }
 
 .AboutUs__tecnologias img {

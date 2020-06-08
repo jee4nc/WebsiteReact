@@ -1,14 +1,14 @@
 [
   {
-    "src": "src/utils/angular.svg",
+    "src": "./../../utils/angular.svg",
     "alt": "angular"
   },
   {
-    "src": "../../utils/django.svg",
+    "src": "./../../utils/django.svg",
     "alt": "django"
   },
   {
-    "src": "../../utils/js.svg",
+    "src": "./../../utils/js.svg",
     "alt": "js"
   },
   {
