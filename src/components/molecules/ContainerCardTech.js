@@ -11,9 +11,10 @@ class ContainerCardTech extends React.Component {
     return (
       <div className="Container__CardTech">
         {this.state.lista.map((e) => (
-          <Zoom>
+          <Zoom key={e.src}>
             <CardTech
               className="Container__CardTech__img"
+              key={e.alt}
               src={e.src}
               alit={e.alt}
             />
