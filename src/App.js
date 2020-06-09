@@ -4,7 +4,7 @@ import AboutUs from "./components/organism/AboutUs";
 import MainSection from "./components/molecules/MainSection";
 import BenefitsSection from "./components/molecules/BenefitsSection";
 import ContainerPlans from "./components/molecules/ContainerPlans";
-import ContainerContact from "./components/molecules/ContainerContact";
+import ContactUs from "./components/molecules/ContacUs";
 // import WspButton from "./components/atoms/WspButton";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <AboutUs />
       <BenefitsSection />
       <ContainerPlans />
-      <ContainerContact />
+      <ContactUs />
     </>
   );
 }
