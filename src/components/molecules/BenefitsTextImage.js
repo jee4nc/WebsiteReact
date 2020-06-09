@@ -20,7 +20,7 @@ class BenefitsTextImage extends React.Component {
           <Zoom>
             <img
               className="BContainer__IMG__IMG"
-              src="../../utils/development.svg"
+              src="../../utils/graphic.svg"
               alt="development"
             />
           </Zoom>

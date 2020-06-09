@@ -1,9 +1,10 @@
 @import "./colors";
+
 .Title_section {
-  margin-top: 2em;
+  margin-top: $margin-top;
   display: grid;
   grid-template-columns: 1fr;
-  border: 5px solid green;
+  //   border: 5px solid green;
   justify-items: center;
   background: $back_color;
 }
@@ -11,16 +12,23 @@
 .BContainer {
   display: grid;
   grid-template-columns: 1.6fr 1.2fr;
-  border: 5px solid purple;
+  //   border: 5px solid purple;
   background: $back_color;
+
   &__Text {
     font-size: 1.3em;
-    border: 5px solid yellowgreen;
+    // border: 5px solid yellowgreen;
+    display: grid;
+    justify-content: center;
+    margin-left: 1em;
+    align-items: center;
   }
+
   &__IMG {
     display: grid;
     justify-items: center;
-    border: 5px solid orange;
+
+    // border: 5px solid orange;
     &__IMG {
       filter: grayscale(30%);
       max-width: 50%;

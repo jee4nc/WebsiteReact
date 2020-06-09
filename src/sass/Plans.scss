@@ -1,0 +1,158 @@
+@import "./colors";
+
+.PlanBasic {
+    border: 2px solid $color-BORDER;
+    display: grid;
+    border-radius: 7px;
+    width: 290px;
+    // height: 500px
+    grid-template-columns: 1fr;
+    // grid-template-rows: repeat(4, 5em);
+    max-width: 100%;
+
+    &__title {
+        font-size: 1em;
+        display: grid;
+        justify-content: center;
+    }
+
+    &__options {
+        display: grid;
+        // justify-content: center;
+        justify-items: center;
+        font-size: 1.3em;
+    }
+
+    &__options p {
+        max-width: 100%;
+    }
+}
+
+.task {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+
+    &__1 {
+        background-color: $color-target;
+    }
+
+    &__3 {
+        background-color: $color-target;
+    }
+}
+
+// PLAN MEDIUM ==============================
+
+.PlanMedium {
+    border: 2px solid $color-BORDER;
+    display: grid;
+    border-radius: 7px;
+    width: 300px;
+    // height: 500px
+    grid-template-columns: 1fr;
+    // grid-template-rows: repeat(4, 5em);
+    max-width: 100%;
+
+    &__title {
+        font-size: 1em;
+        display: grid;
+        justify-content: center;
+    }
+
+    &__options {
+        display: grid;
+        // justify-content: center;
+        justify-items: center;
+        font-size: 1.3em;
+    }
+
+    &__options p {
+        max-width: 100%;
+    }
+}
+
+.task {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+
+    &__1 {
+        background-color: $color-target;
+    }
+
+    &__3 {
+        background-color: $color-target;
+    }
+
+    &__5 {
+        background-color: $color-target;
+    }
+}
+
+// PLAN EXPERT ==============================
+
+.PlanExpert {
+    border: 2px solid $color-BORDER;
+    display: grid;
+    border-radius: 7px;
+    width: 300px;
+    // height: 500px
+    grid-template-columns: 1fr;
+    // grid-template-rows: repeat(4, 5em);
+    max-width: 100%;
+
+    &__title {
+        font-size: 1em;
+        display: grid;
+        justify-content: center;
+    }
+
+    &__options {
+        display: grid;
+        // justify-content: center;
+        justify-items: center;
+        font-size: 1.3em;
+    }
+
+    &__options p {
+        max-width: 100%;
+    }
+}
+
+.task {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+
+    &__1 {
+        background-color: $color-target;
+    }
+
+    &__3 {
+        background-color: $color-target;
+    }
+
+    &__5 {
+        background-color: $color-target;
+    }
+
+    &__7 {
+        background-color: $color-target;
+    }
+
+    &__9 {
+        background-color: $color-target;
+    }
+}
+
+// CONTAINER DE PLANS=======================
+.ContainerPlans {
+    display: grid;
+    margin-top: $margin-top;
+    // grid-template-columns: repeat(3, 0.5fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
