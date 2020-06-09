@@ -1,0 +1,29 @@
+@import "./colors.scss";
+
+.Container__Contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.Con_Image__a img {
+    max-width: 40%;
+}
+
+.Con_Image__a {
+    display: grid;
+    justify-items: center;
+    filter: grayscale(25%);
+}
+
+.tile {
+    display: grid;
+    grid-gap: 1fr;
+    justify-content: center;
+    margin-top: $margin-top;
+    margin-bottom: 3em;
+    font-size: 2em;
+    font-weight: bold;
+}

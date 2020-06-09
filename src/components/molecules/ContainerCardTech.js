@@ -16,7 +16,7 @@ class ContainerCardTech extends React.Component {
               className="Container__CardTech__img"
               key={e.alt}
               src={e.src}
-              alit={e.alt}
+              alt={e.alt}
             />
           </Zoom>
         ))}
