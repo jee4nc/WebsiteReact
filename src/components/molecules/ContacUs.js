@@ -24,25 +24,27 @@ export default function ContactUs() {
       <div className="big_container__title">Comunicate con nosotros!</div>
       <Zoom>
         <form className="contact_form" onSubmit={sendEmail}>
-          <div className="contact_form__image">
+          {/* <div className="contact_form__image">
             <img src="./../../utils/ws.svg" className="image" alt="wsp"></img>
-          </div>
+          </div> */}
           <div className="contact_form__information">
-            <div className="contact_form__name">
-              <input type="hidden" name="contact_number" />
-            </div>
             <div className="contact__name">
               <div className="labell">
                 <label>Nombre</label>
               </div>
-
-              <input type="text" name="user_name" />
+              <input className="inputc" type="text" name="user_name" />
+            </div>
+            <div className="contact_form__number">
+              <div className="labell">
+                <label>Numero</label>
+              </div>
+              <input className="inputc2" type="text" name="contact_number" />
             </div>
             <div className="contact__email">
               <div className="labell">
                 <label>Email de contacto</label>
               </div>
-              <input type="email" name="user_email" />
+              <input className="inputc" type="email" name="user_email" />
             </div>
             <div className="contact__message">
               <div className="labell">

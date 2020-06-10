@@ -5,9 +5,12 @@
   border-radius: $border_RADIUSS;
   padding: 0.8em;
   display: grid;
-  grid-template-columns: 1.5fr 1.2fr;
-  max-width: 80%;
+  background-color: #bdb9b9;
+  // grid-template-columns: 1.5fr 1.2fr;
+  grid-template-columns: 90vh;
+
   justify-content: center;
+
   //   justify-items: center;
   &__information {
     // border: 4px solid purple;
@@ -19,21 +22,25 @@
       grid-template-columns: 1fr;
     }
   }
+
   &__image {
     // border: 4px solid black;
     display: grid;
     justify-items: center;
   }
 }
+
 .image {
   max-width: 60%;
 }
+
 .big_container {
   margin-top: 5em;
   display: grid;
   justify-content: center;
   justify-items: center;
   margin-bottom: 4em;
+
   &__title {
     font-size: 2em;
     padding-bottom: 1.3em;
@@ -47,9 +54,21 @@
   margin-bottom: 0.5em;
   font-weight: 480;
   font-size: 1.1em;
+  padding-top: 1.5em;
 }
+
 .text_area {
   resize: none;
   min-height: 100px;
+  min-width: 250px;
+}
+
+.inputc {
+  min-height: 1.4em;
+  min-width: 330px;
+}
+
+.inputc2 {
+  min-height: 1.4em;
   min-width: 250px;
 }
