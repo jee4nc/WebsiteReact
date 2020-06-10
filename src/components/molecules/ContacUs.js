@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import "../../sass/Contact.scss";
 import Zoom from "react-reveal/Zoom";
+import swal from "sweetalert";
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -12,6 +13,13 @@ export default function ContactUs() {
       .then(
         (result) => {
           console.log(result.text);
+          if (result.text === "OK") {
+            swal(
+              "Email enviado!",
+              "Nos contactaremos contigo a la brevedad!",
+              "success"
+            );
+          }
         },
         (error) => {
           console.log(error.text);
