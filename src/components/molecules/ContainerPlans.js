@@ -8,13 +8,18 @@ import Zoom from "react-reveal/Zoom";
 class ContainerPlans extends React.Component {
   render() {
     return (
-      <div className="ContainerPlans">
-        <Zoom>
-          <PlanBasic />
-          <PlanExpert />
-          <PlanMedium />
-        </Zoom>
-      </div>
+      <>
+        <div className="titulo_plan">
+          <p>Conoce nuestros planes!</p>
+        </div>
+        <div className="ContainerPlans">
+          <Zoom>
+            <PlanBasic />
+            <PlanExpert />
+            <PlanMedium />
+          </Zoom>
+        </div>
+      </>
     );
   }
 }

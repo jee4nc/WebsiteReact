@@ -5,6 +5,7 @@
     // border: 5px green solid;
     background-color: $back_color;
     grid-template-columns: 1fr;
+    margin-top: 5em;
 
     &__title {
         display: grid;
@@ -28,6 +29,7 @@
     grid-template-columns: repeat(8, 1fr);
     padding-top: 2em;
     padding-bottom: 3em;
+    margin-top: 3em;
 
     &__image {
         display: grid;

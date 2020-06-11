@@ -19,6 +19,7 @@ export default function ContactUs() {
               "Nos contactaremos contigo a la brevedad!",
               "success"
             );
+            limpiar();
           }
         },
         (error) => {
@@ -31,10 +32,11 @@ export default function ContactUs() {
     <div className="big_container">
       <div className="big_container__title">Comunicate con nosotros!</div>
       <Zoom>
-        <form className="contact_form" onSubmit={sendEmail}>
-          {/* <div className="contact_form__image">
-            <img src="./../../utils/ws.svg" className="image" alt="wsp"></img>
-          </div> */}
+        <form
+          className="contact_form"
+          onSubmit={sendEmail}
+          id="create-course-form"
+        >
           <div className="contact_form__information">
             <div className="contact__name">
               <div className="labell">
@@ -68,4 +70,8 @@ export default function ContactUs() {
       </Zoom>
     </div>
   );
+}
+
+function limpiar() {
+  document.getElementById("create-course-form").reset();
 }
