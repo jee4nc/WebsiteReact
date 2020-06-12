@@ -15,15 +15,10 @@ export default function sendEmail(e) {
             "Nos contactaremos contigo a la brevedad!",
             "success"
           );
-          limpiar();
         }
       },
       (error) => {
         console.log(error.text);
       }
     );
-}
-
-function limpiar() {
-  document.getElementById("create-course-form").reset();
 }
