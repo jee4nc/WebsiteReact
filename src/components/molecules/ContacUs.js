@@ -46,6 +46,7 @@ export default class ContactUs extends React.Component {
                   name="user_name"
                   onChange={this.handleChange}
                   value={this.state.name}
+                  placeholder="EJ: Daniel Mellado"
                   required
                 />
                 {console.log(` El valor de name es: ${this.state.name}`)}
@@ -59,7 +60,9 @@ export default class ContactUs extends React.Component {
                 </div>
                 <input
                   className="inputc2"
-                  type="text"
+                  type="number"
+                  maxLength="9"
+                  placeholder="EJ: 912345678"
                   name="contact_number"
                   value={this.state.numero}
                   onChange={this.cambioNumero}
@@ -76,6 +79,7 @@ export default class ContactUs extends React.Component {
                   name="user_email"
                   value={this.state.email}
                   onChange={this.cambioEmail}
+                  placeholder="EJ: email@example.com"
                   required
                 />
               </div>
@@ -88,16 +92,12 @@ export default class ContactUs extends React.Component {
                   className="text_area"
                   required
                   value={this.state.mensaje}
+                  placeholder="Ej: Mensaje con la consulta"
                   onChange={this.cambioMensaje}
                 />
               </div>
               <div>
                 <input type="submit" value="Send" />
-                <input
-                  type="submit"
-                  value="limpiar"
-                  onClick={this.limpiarInputs}
-                />
               </div>
             </div>
           </form>
